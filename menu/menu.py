@@ -34,6 +34,8 @@ while True:
             sleep(tempo)
             print("-=" * 25)
             print(f"O resultado da soma entre {n1} + {n2} é igual a : {n1 + n2}")
+            break
+            # Adicionar futuramente opção de volar...
         elif calculo == 2:
             print("Voce escolheu a SUBTRAÇÃO")
             print("-=" * 25)
@@ -44,6 +46,8 @@ while True:
             sleep(tempo)
             print("-=" * 25)
             print(f"O resultado da subtração entre {n1} - {n2} é igual a : {n1 - n2}")
+            break
+            # Adicionar futuramente opção de volar...
         elif calculo == 3:
             print("Voce escolheu a MULTIPLICAÇÃO")
             print("-=" * 25)
@@ -54,6 +58,8 @@ while True:
             sleep(tempo)
             print("-=" * 25)
             print(f"O resultado da multiplicação entre {n1} x {n2} é igual a : {n1 * n2}")
+            break
+            # Adicionar futuramente opção de volar...
         elif calculo == 4:
             print("Voce escolheu a DIVISÃO")
             print("-=" * 25)
@@ -64,13 +70,15 @@ while True:
             sleep(tempo)
             print("-=" * 25)
             print(f"O resultado da divisão entre {n1} / {n2} é igual a : {n1 / n2}")
+            break
+            # Adicionar futuramente opção de volar...
         else:
             print("Essa opção não existe! Tente novamente...")
             print()
             print()
             print()
             print()
-            print()
+            
 
     elif opcao == 2:
         print("-=" * 25)
@@ -99,5 +107,3 @@ while True:
         print()
         print()
         print()
-
-
